@@ -122,6 +122,11 @@ header nav ul a {
     color: var(--primary-color);
     align-items: flex-end;
     border: 3px solid var(--secondary-color);
+    opacity: 0.7;
+}
+
+.project:hover {
+    opacity: 1;
 }
 
 .project:first-child {
