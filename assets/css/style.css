@@ -24,7 +24,6 @@ header {
     flex-wrap: wrap;
     padding: 20px 35px 20px 0;
     background-color: var(--primary-color);
-    position: -webkit-sticky;
     position: sticky;
 }
 
@@ -83,6 +82,38 @@ header nav ul a {
     padding: 5px;
     background-color: var(--secondary-color);
 }
+/* HERO STYLING END */
+
+/* CONTENT STYLING START */
+.main-content section {
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main-content h2 {
+    padding: 10px;
+    width: 20%;
+    text-align: right;
+    font-size: 30px;
+}
+
+.content-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    flex: 2 70%;
+    border-left: 3px solid var(--primary-color);
+}
+
+
+/* CONTENT STYLING END */
+
+
 
 @media screen and (max-width: 768px) {
     header {
