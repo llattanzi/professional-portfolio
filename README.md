@@ -11,6 +11,7 @@ and methods of contact.
 
 ## Website
 https://llattanzi.github.io/professional-portfolio/
+![Alt text](./portfolio-screenshot.JPG?raw=true)
 
 ## Contribution
 Made by Lauren Lattanzi
