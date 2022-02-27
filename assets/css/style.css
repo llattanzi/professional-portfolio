@@ -104,12 +104,60 @@ header nav ul a {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
     width: 80%;
     border-left: 3px solid var(--primary-color);
     justify-content: space-between;
 }
 
+/* work/projects section styling */
+.project {
+    margin: 8px 0;
+    background-size: cover;
+    background-position: center;
+    width: 49%;
+    height: 150px;
+    display: flex;
+    text-decoration: none;
+    color: var(--primary-color);
+    align-items: flex-end;
+    border: 3px solid var(--secondary-color);
+}
+
+.project:first-child {
+    width: 100%;
+    height: 350px;
+    margin-top: 0;
+}
+
+#project-1 {
+    background-image: url("../images/project-1.jpg");
+}
+
+#project-2 {
+    background-image: url("../images/project-2.jpg");
+}
+
+#project-3 {
+    background-image: url("../images/project-3.jpg");
+}
+
+#project-4 {
+    background-image: url("../images/project-4.png");
+}
+
+#project-5 {
+    background-image: url("../images/project-5.jpg");
+}
+
+.project-text {
+    background-color: var(--secondary-color);
+    padding: 8px;
+    position: relative;
+    height: auto;
+    bottom: 20px;
+}
+/* contact section styling*/
 #contact-me a {
     text-decoration: none;
     color: inherit;
@@ -168,6 +216,10 @@ header nav ul a {
         bottom: 0;
     }
 
+    .main-content section {
+        padding: 0 20px;
+    }
+
     .main-content h2 {
         width: 100%;
         text-align: left;
@@ -187,6 +239,14 @@ header nav ul a {
     #contact-me p {
         padding: 20px 20px;
         justify-content: space-around;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .project:first-child {
+        height: 150px;
     }
 }
 
